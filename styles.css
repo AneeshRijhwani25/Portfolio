@@ -9,7 +9,7 @@
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 :root{
-    bgOrange: #e84949;
+    --bgOrange: #e84949;
 }
 #wrapper{
     height: 100vh;
@@ -60,7 +60,7 @@ a{
     text-decoration: none;
 }
 .nav-items div:hover{
-    transition: 50ms;
+    transition: all 50ms;
     font-weight: bold;
 }
 
@@ -73,4 +73,23 @@ a{
     margin: 4rem auto;
     padding: 0 1rem;
     padding-bottom: 8rem;
+}
+
+.fadded-text{
+    user-select: none;
+    font-size: 7em;
+    color: rgb(231,231,231);
+
+    bottom: -16%;
+    left: -5%;
+    font-weight: bold;
+    transition: all 3s;
+}
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
 }
