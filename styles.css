@@ -15,7 +15,7 @@
     --third-color: black;
     --fourth-color: blueviolet;
     --fifth-color: #343d68;
-    
+    --path1: url("/images/userAsset/nav-logo.png")
 }
 .dark-theme{
     --primary-color: #624F82;
@@ -23,7 +23,7 @@
     --third-color: white;
     --fourth-color: #A3C7D6;
     --fifth-color: #F1D4D4;
-
+    --path1: url("/images/userAsset/nav-logo2.png")
 }
 #wrapper{
     height: 100vh;
@@ -44,9 +44,10 @@
 
     padding-top: 1rem;
 }
-.logo{
+.logo {
     width: 55px;
-    cursor: pointer;
+    height: 55px;
+    background: var(--path1);
 }
 .logo-container{
     display: flex;
