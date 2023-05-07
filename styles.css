@@ -152,6 +152,10 @@ a{
     z-index: 1;
 }
 
+.btn-pink a{
+    text-decoration: none;
+}
+
 .btn-pink::before{
     content: "";
     position: absolute;
@@ -483,7 +487,7 @@ a{
 }
 #project4{
     margin-left: 120px;
-    background-image: url(./images/projects/images\ \(3\).jpeg);
+    background-image: url(./images/projects/Project4.png);
 }
 
 @media (max-width:1300px) {
